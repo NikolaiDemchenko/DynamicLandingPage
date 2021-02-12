@@ -1,0 +1,36 @@
+$nightBackgroundImage: "https://i.ibb.co/924T2Wv/night.jpg";
+$afternoonBackgroundImage: "https://i.ibb.co/3mThcXc/afternoon.jpg";
+$morningBackgroundImage: "https://i.ibb.co/7vDLJFb/morning.jpg";
+$fontColor: white;
+$fontStyle: 'Quicksand', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+span {
+  color: $fontColor;
+  font-family: $fontStyle;
+}
+.greeting, #my-name {
+  font-size: 2em;
+  font-weight: bold;
+}
+.focus, #my-focus {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#time {
+  color: $fontColor;
+  font-family: $fontStyle;
+}
+.morning {
+  background-image: url($morningBackgroundImage);
+}
+.afternoon {
+  background-image: url($afternoonBackgroundImage);
+}
+.night {
+  background-image: url($nightBackgroundImage);
+}
